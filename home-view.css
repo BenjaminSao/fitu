@@ -1,0 +1,62 @@
+h1
+{
+    font-size: 2.125rem;
+}
+
+h2
+{
+    font-size: 1.75rem;
+}
+
+h3
+{
+    font-size: 1.125rem;
+}
+
+body
+{
+    background: linear-gradient(180deg, #FFFDFB 0%, #FEFAFF 34.96%, #FFFFFF 83.25%);
+    min-height: 100vh;
+    
+}
+
+.shadow-1
+{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.has-rounded-borders
+{
+    border-radius: 8px;
+}
+
+.custom-padding
+{
+    padding: 1rem 3rem !important;
+}
+
+.image-cover
+{
+    height: 100% !important;
+    object-fit: cover;
+}
+
+.custom-card
+{
+    background-color: white;
+    overflow: hidden;
+    height: 225px;
+}
+
+.custom-card-icon
+{
+    height: 60%;
+}
+
+.custom-transaction-table
+{
+    background-color: white;
+    width: 100%;
+    min-height: 500px;
+}
+

@@ -1,11 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+        <link rel="stylesheet" href="./home-view.css" />
+    </head>
+    <body>
+        <div id="app">
+            <!-- <nav class="navbar is-info p-2">
+                <div class="navbar-brand is-fullwidth">
+                    <div class="navbar-item is-flex is-flex-grow-1">
+                        <h1 class="has-text-weight-semibold">FITU</h1>
+                    </div>
+                </div>
+            </nav> -->
+
+            <section class="section">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column is-4">
+                            <div class="profile mb-6">
+                                <div class="is-flex is-align-items-center">
+                                    <figure class="image is-64x64">
+                                        <img
+                                            class="image-cover is-rounded"
+                                            src="https://ben-saobuppha-personal-site-v2.herokuapp.com/aaac81e42f9c156f9209ccc42c99e4e7-IMG_12469.png"
+                                            alt=""
+                                        />
+                                    </figure>
+                                    <div class="ml-4">
+                                        <h3 class="has-text-weight-semibold">Benjamin Saobuppha</h3>
+                                        <p>UI Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="balance mb-6">
+                                <p>Owing</p>
+                                <h1>$ 420.69</h1>
+                            </div>
+                            <div class="options mb-6">
+                                <figure class="icon mb-5">
+                                    <i data-feather="user"></i>
+                                </figure>
+                                <h3 class="mb-5 has-text-primary">Johnson Su</h3>
+                                <h3 class="mb-5">Vincent Li</h3>
+                                <h3 class="mb-5">Kevin Rego</h3>
+                            </div>
+                            <div class="modify">
+                                <div class="is-flex is-align-items-center has-text-primary-dark mb-3">
+                                    <figure class="icon">
+                                        <i data-feather="plus-circle"></i>
+                                    </figure>
+                                    <h3 class="ml-2">Add Transaction</h3>
+                                </div>
+                                <div class="is-flex is-align-items-center has-text-info">
+                                    <figure class="icon">
+                                        <i data-feather="plus-circle"></i>
+                                    </figure>
+                                    <h3 class="ml-2">Make a Payment</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h1 class="has-text-weight-semibold mb-6">Recent Transaction</h1>
+                            <div class="columns custom-cards is-flex mb-6">
+                                <div
+                                    class="column custom-card p-5 shadow-1 mr-3 has-rounded-borders"
+                                >
+                                    <div
+                                        class="custom-card-icon is-flex is-justify-content-center is-align-items-center"
+                                    >
+                                        <h1 class="has-text-weight-bold">C</h1>
+                                    </div>
+                                    <div class="card-text pt-5">
+                                        <h3 class="has-text-weight-semibold">Costco</h3>
+                                        <p>$201.20</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="column custom-card p-5 shadow-1 mr-3 has-rounded-borders"
+                                >
+                                    <div
+                                        class="custom-card-icon is-flex is-justify-content-center is-align-items-center"
+                                    >
+                                        <h1 class="has-text-weight-bold">T</h1>
+                                    </div>
+                                    <div class="card-text pt-5">
+                                        <h3 class="has-text-weight-semibold">T&T</h3>
+                                        <p>$57.95</p>
+                                    </div>
+                                </div>
+                                <div class="column custom-card p-5 shadow-1 has-rounded-borders">
+                                    <div
+                                        class="custom-card-icon is-flex is-justify-content-center is-align-items-center"
+                                    >
+                                        <h1 class="has-text-weight-bold">F</h1>
+                                    </div>
+                                    <div class="card-text pt-5">
+                                        <h3 class="has-text-weight-semibold">Fusion</h3>
+                                        <p>$3.25</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="columns">
+                                <div
+                                    class="column custom-transaction-table shadow-1 has-rounded-borders p-6"
+                                >
+                                    <h1 class="has-text-weight-semibold mb-6">
+                                        Transaction History
+                                    </h1>
+                                    <div class="transaction">
+                                        <div class="is-flex is-justify-content-space-between mb-4">
+                                            <div class="is-flex">
+                                                <h1>C</h1>
+                                                <div class="ml-5">
+                                                    <h3 class="has-text-weight-semibold">
+                                                        Benjamin Saobuppha
+                                                    </h3>
+                                                    <p>Costco</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3
+                                                    class="has-text-weight-semibold has-text-danger"
+                                                >
+                                                    +$201.20
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="is-flex is-justify-content-space-between mb-4">
+                                            <div class="is-flex">
+                                                <h1>T</h1>
+                                                <div class="ml-5">
+                                                    <h3 class="has-text-weight-semibold">
+                                                        Benjamin Saobuppha
+                                                    </h3>
+                                                    <p>T&T</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3
+                                                    class="has-text-weight-semibold has-text-danger"
+                                                >
+                                                    +$3.25
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="is-flex is-justify-content-space-between mb-4">
+                                            <div class="is-flex">
+                                                <h1>F</h1>
+                                                <div class="ml-5">
+                                                    <h3 class="has-text-weight-semibold">
+                                                        Benjamin Saobuppha
+                                                    </h3>
+                                                    <p>Fusion</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3
+                                                    class="has-text-weight-semibold has-text-danger"
+                                                >
+                                                    +$3.25
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="is-flex is-justify-content-space-between mb-4">
+                                            <div class="is-flex">
+                                                <h1>P</h1>
+                                                <div class="ml-5">
+                                                    <h3 class="has-text-weight-semibold">
+                                                        Benjamin Saobuppha
+                                                    </h3>
+                                                    <p>Payment</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <h3
+                                                    class="has-text-weight-semibold has-text-primary"
+                                                >
+                                                    -$859.00
+                                                </h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script>
+            feather.replace()
+        </script>
+        <script type="module" src="./home-view-model.js"></script>
+    </body>
 </html>
